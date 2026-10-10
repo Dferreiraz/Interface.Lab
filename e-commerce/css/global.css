@@ -1,0 +1,95 @@
+/* ==========================================================================
+   RESETS E ESTILOS BASE - E-Commerce
+   ========================================================================== */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--color-black);
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================================================
+   VARIÁVEIS GLOBAIS
+   ========================================================================== */
+:root {
+    /* Primary */
+    --color-primary: #B0CB1F;
+    --color-primary-hover: #9ab31a;
+    
+    /* Secondary */
+    --color-white: #FFFFFF;
+    --color-black: #333231;
+    --color-gray: #757575;
+    --color-light-bg: #F8FAF0;
+    
+    /* Font Family Padrão */
+    --font-family: 'Inter', sans-serif;
+    
+    /* Layout */
+    --container-width: 1280px;
+}
+
+/* ==========================================================================
+   TIPOGRAFIA
+   ========================================================================== */
+h1, h2, h3, h4 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-black);
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
+
+/* ==========================================================================
+   COMPONENTES BASE
+   ========================================================================== */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.btn-primary, .btn-cart, .btn-enviar {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--color-primary);
+    color: var(--color-black);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: inline-block;
+}
+
+.btn-primary:hover, .btn-cart:hover, .btn-enviar:hover {
+    background-color: var(--color-primary-hover);
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 2rem;
+}

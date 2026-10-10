@@ -1,0 +1,104 @@
+/* =========================================================
+   GLOBAL.CSS - Loja do Celular
+   Reset, design tokens e estilos base
+   ========================================================= */
+
+/* ---------- Reset ---------- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    font: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* ---------- Design Tokens ---------- */
+:root {
+    /* Paleta — tema escuro com amarelo vibrante e lime de destaque */
+    --black: #080808;
+    --black-2: #111111;
+    --black-3: #1a1a1a;
+    --yellow: #f5d800;
+    --yellow-2: #ffe033;
+    --lime: #c8f000;
+    --white: #ffffff;
+    --gray: #888888;
+    --gray-2: #444444;
+
+    /* Tipografia */
+    --font-display: 'Bebas Neue', sans-serif;
+    --font-label: 'Barlow Condensed', sans-serif;
+    --font-body: 'Barlow', sans-serif;
+
+    /* Espaçamento */
+    --container-width: 1280px;
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+
+    /* Bordas */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+}
+
+/* ---------- Base ---------- */
+body {
+    background: var(--black);
+    color: var(--white);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.6;
+    min-height: 100vh;
+    overflow-x: hidden;
+    cursor: none; /* Cursor customizado */
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.15;
+    color: var(--white);
+}
+
+/* ---------- Acessibilidade ---------- */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+        scroll-behavior: auto !important;
+    }
+}

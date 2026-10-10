@@ -1,0 +1,65 @@
+/* --- RESET DO CSS --- Fintech --- */
+*,
+*::before,
+*::after {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --- VARIÁVEIS CSS (Design System Fintech) --- */
+:root {
+    /* Cores */
+    --color-primary: #9130F4;
+    --color-primary-hover: #7a20d6;
+    --color-secondary: #121139;
+    --color-neutral-white: #FFFFFF;
+    --color-text-muted: #a0a0b0;
+
+    /* Tipografia - Tamanhos */
+    --font-size-h1: 54px;
+    --font-size-h2: 45px;
+    --font-size-h3: 35px;
+    --font-size-h4: 25px;
+    --font-size-body: 16px;
+    --font-size-button: 16px;
+    --font-size-caption: 14px;
+
+    /* Tipografia - Espessuras */
+    --font-weight-h1: 700;
+    --font-weight-h2: 700;
+    --font-weight-h3: 700;
+    --font-weight-h4: 500;
+    --font-weight-body: 400;
+    --font-weight-button: 700;
+    --font-weight-caption: 400;
+
+    /* Tipografia - Família */
+    --font-family-primary: "Inter", sans-serif;
+}
+
+html {
+    font-family: var(--font-family-primary);
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color-secondary);
+    color: var(--color-neutral-white);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}

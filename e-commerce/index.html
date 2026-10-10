@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce | MacBook Pro M1</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="./assets/img/logo.png" alt="E-Commerce Logo" class="footer-logo">
+            </a>
+            <nav class="nav-menu">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Produtos</a>
+                <a href="#" class="nav-link">Sobre nós</a>
+                <a href="#" class="nav-link">Contato</a>
+            </nav>
+            <a href="#" class="btn-primary">Login</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- SEÇÃO DO PRODUTO -->
+        <section class="product-section">
+            <div class="container product-container">
+                <div class="product-image">
+                    <img src="./assets/img/Product.svg" alt="MacBook Pro M1 Space Gray">
+                </div>
+                
+                <div class="product-details">
+                    <div class="rating-box">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-text">5.0 Estrelas (21.671 avaliações)</span>
+                    </div>
+                    
+                    <h1 class="product-title">2020 Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray</h1>
+                    
+                    <div class="price-container">
+                        <span class="current-price">R$ 5.299,00</span>
+                        <span class="old-price">R$ 7.000,00</span>
+                        <span class="discount-badge">24,3% OFF</span>
+                    </div>
+
+                    <div class="color-selection">
+                        <p class="color-label">Cor: <strong>Space Gray</strong></p>
+                        <div class="color-options">
+                            <button class="color-dot active" data-color="gray" aria-label="Cinza"></button>
+                            <button class="color-dot dot2" data-color="silver" aria-label="Prata"></button>
+                        </div>
+                    </div>
+
+                    <button class="btn-cart">Adicionar no carrinho</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DE INFORMAÇÕES / CHECKOUT -->
+        <section class="info-section">
+            <div class="container">
+                <h2 class="section-title">Informações de Entrega</h2>
+                
+                <form class="checkout-form" id="checkout-form">
+                    <div class="form-grid">
+                        <div class="form-group full-width">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" id="nome" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="cpf">CPF</label>
+                            <input type="text" id="cpf" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cep">CEP</label>
+                            <input type="text" id="cep" placeholder="00000-000" required>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="rua">Rua</label>
+                            <input type="text" id="rua" readonly>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="numero">Número</label>
+                            <input type="text" id="numero">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="complemento">Complemento</label>
+                            <input type="text" id="complemento">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bairro">Bairro</label>
+                            <input type="text" id="bairro" readonly>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="estado">Estado</label>
+                            <input type="text" id="estado" readonly>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-enviar">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <img src="./assets/img/logo.svg" alt="Logo" class="footer-logo">
+                <p class="copyright">Copyright © 2025 E-Commerce ltd.<br>All rights reserved</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><img src="./assets/img/website.svg" alt="Web"></a>
+                    <a href="#" class="social-icon"><img src="./assets/img/twitter.svg" alt="Twitter"></a>
+                    <a href="#" class="social-icon"><img src="./assets/img/youtube.svg" alt="Youtube"></a>
+                </div>
+            </div>
+
+            <div class="footer-links-grid">
+                <div class="footer-col">
+                    <h3 class="footer-title">Menu</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Contato</h3>
+                    <ul>
+                        <li>(11) 99585-5858</li>
+                        <li>(11) 99868-5889</li>
+                        <li>(11) 3535-3535</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Endereço</h3>
+                    <ul>
+                        <li>2972 Westheimer Rd.</li>
+                        <li>Santa Ana, Illinois 85486</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

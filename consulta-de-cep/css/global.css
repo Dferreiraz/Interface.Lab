@@ -1,0 +1,57 @@
+/* ==========================================================================
+   RESETS E ESTILOS BASE - Consulta de CEP
+   ========================================================================== */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+button {
+    font: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+input {
+    font: inherit;
+    border: none;
+    outline: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+:root {
+    --bg-gradient-start: #38ef7d;
+    --bg-gradient-end: #11998e;
+    
+    --glass-bg: rgba(255, 255, 255, 0.1);
+    --glass-border: rgba(255, 255, 255, 0.2);
+    --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    
+    --text-main: #ffffff;
+    --text-muted: #e0e0e0;
+    --text-dark: #11998e;
+    
+    --btn-bg: #ffffff;
+    --btn-hover: #f0f0f0;
+    
+    --error-color: #ff6b6b;
+    --success-color: #38ef7d;
+}
