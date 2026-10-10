@@ -32,7 +32,7 @@
 
 ## 💻 Sobre o projeto
 
-O **Consulta de CEP** é uma aplicação web desenvolvida para consultar endereços brasileiros a partir do Código de Endereçamento Postal (CEP), utilizando a API pública ViaCEP.
+O **Consulta de CEP** é uma aplicação web desenvolvida durante o curso Desenvolvedor Front-End no SENAI suiço-brasileira para consultar endereços brasileiros a partir do Código de Endereçamento Postal (CEP), utilizando a API pública ViaCEP.
 
 O projeto foi desenvolvido com HTML5, CSS3 e JavaScript Vanilla, com foco na integração com APIs REST, na validação de formulários e na manipulação dinâmica do DOM.
 
