@@ -32,7 +32,7 @@
 
 ## 💻 Sobre o projeto
 
-O **E-Commerce** é um projeto de interface web que simula parte da experiência de compra de uma loja virtual, reunindo uma página de produto e um formulário de checkout com informações de entrega.
+O **E-Commerce** é um projeto de interface web desenvolvido durante o curso Desenvolvedor Front-End no SENAI suiço-brasileira que simula parte da experiência de compra de uma loja virtual, reunindo uma página de produto e um formulário de checkout com informações de entrega.
 
 A interface apresenta informações do produto, imagem, avaliação por estrelas, preços, desconto e seleção de variantes de cor. Além disso, disponibiliza um formulário para preenchimento dos dados do cliente e do endereço de entrega.
 
