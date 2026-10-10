@@ -1,5 +1,3 @@
-# 🎨 Interface.Lab
-
 <h1 align="center">
   🎨 Interface.Lab
 </h1>
