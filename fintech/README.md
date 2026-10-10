@@ -32,7 +32,7 @@
 
 ## 💻 Sobre o projeto
 
-O **Fintech** é um projeto de landing page institucional para uma empresa fictícia de tecnologia financeira, desenvolvido com foco em design corporativo, comunicação visual e apresentação de serviços relacionados ao controle financeiro.
+O **Fintech** é um projeto de landing page institucional para uma empresa fictícia de tecnologia financeira, desenvolvido durante o curso Desenvolvedor Front-End no SENAI suiço-brasileira com foco em design corporativo, comunicação visual e apresentação de serviços relacionados ao controle financeiro.
 
 A interface apresenta uma estrutura organizada, com navegação fixa, seção principal de destaque, áreas dedicadas aos diferenciais da empresa e um rodapé completo.
 
